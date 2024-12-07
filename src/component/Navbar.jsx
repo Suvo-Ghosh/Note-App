@@ -12,11 +12,21 @@ function Navbar() {
                 <div className='flex gap-6 justify-center font-semibold'>
                     <NavLink
                         to="/"
+                        className={({ isActive }) =>
+                            isActive
+                                ? 'text-yellow-500' // Active link style
+                                : 'text-white' // Inactive link style
+                        }
                     >
                         Create Note
                     </NavLink>
                     <NavLink
                         to="/paste"
+                        className={({ isActive }) =>
+                            isActive
+                                ? 'text-yellow-500' // Active link style
+                                : 'text-white' // Inactive link style
+                        }
                     >
                         View Notes
                     </NavLink>
