@@ -1,6 +1,6 @@
 # Note Taking App
 
-A simple and responsive note-taking app built with **React** and **Tailwind CSS**. This app allows users to create, view, and edit their notes.
+A simple and responsive note-taking app built with **React** ,**Redux***and **Tailwind CSS**. This app allows users to create, view, and edit their notes.
 
 ## Features
 
