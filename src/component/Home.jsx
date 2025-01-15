@@ -66,7 +66,7 @@ function Home() {
                     </button>
                 </div>
                 <div className="mt-2 rounded h-[80vh] w-full min-w-[300px] border-2 border-gray-300">
-                    <div className="h-[7%] border-b-2 border-b-gray-300 flex flex-row justify-between">
+                    <div className="border-b-2 border-b-gray-300 flex flex-row justify-between">
                         <div className=" p-2 flex flex-row gap-2">
                             <div className="h-4 w-4 bg-red-500 rounded-full"></div>
                             <div className="h-4 w-4 bg-yellow-400 rounded-full"></div>
